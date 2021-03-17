@@ -1,0 +1,42 @@
+{
+  "name": "tailwind-mix-twig-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mix watch",
+    "dev:poll": "mix watch -- --watch-options-poll=1000",
+    "dev:hot": "mix watch --hot",
+    "build:dev": "rm -rf build && mix",
+    "build": "rm -rf build && mix --production",
+    "format": "prettier --write \"**/*.{twig,js}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjbrum/tailwind-mix-twig-starter.git"
+  },
+  "keywords": [],
+  "author": "Kyle Brumm <kjbrumm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kjbrum/tailwind-mix-twig-starter/issues"
+  },
+  "homepage": "https://github.com/kjbrum/tailwind-mix-twig-starter#readme",
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.1",
+    "autoprefixer": "^10.2.5",
+    "browser-sync": "^2.26.14",
+    "browser-sync-webpack-plugin": "2.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "js-beautify": "^1.13.5",
+    "laravel-mix": "^6.0.13",
+    "laravel-mix-twig": "^2.0.1",
+    "postcss": "^8.2.8",
+    "prettier": "^2.2.1",
+    "prettier-plugin-twig-enhancements": "^1.0.1",
+    "prettier-plugin-twig-melody": "^0.4.6",
+    "raw-loader": "^4.0.2",
+    "tailwindcss": "^2.0.3",
+    "twig-html-loader": "^0.1.9"
+  }
+}
